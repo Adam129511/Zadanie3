@@ -1,0 +1,20 @@
+Rozwiązania zadań proszę zacommitować na repozytorium GIT.
+
+
+1.
+1.A. W jakim celu używa się klas abstrakcyjnych, a w jakim interfejsów?
+Klas abstrakcyjnych się używa gdy chcemy zawrzeć metody z jakąś implementacją . Gdy nie ma takiej potrzeby interfejsy wystarczą
+1.B. Czym różni się tablica od listy liniowej?
+Tablica to cały blok zwykle kilka kolumn i wierszy(taka tablica list)[Choć zdarzają się tablice jednowymiarowe] Natomiast lista to zbiór elementów 1kolumna n-wierszowa
+
+
+2.
+Mając tablicę int[] numbers, wypełnioną liczbami całkowitymi i posortowaną malejąco ( numbers[i] > numbers[i+1] ), sprawdź czy występuje w niej liczba int x. Metoda powinna zwracać wartość TRUE, jeśli dana liczba występuje oraz FALSE w przeciwnym wypadku. W rozwiązaniu zależy nam na jak najmniejszej złożoności obliczeniowej (priorytet) oraz pamięciowej. Podaj szacowaną złożoność obliczeniową oraz pamięciową. Poniżej sygnatura metody do napisania.
+
+private boolean search(int[] numbers, int x){}
+złożoność obliczeniowa 4n +3
+Złożoność pamięciowa O(n)
+
+3.
+Napisz program, który wykorzysta API Kanye Rest https://kanye.rest/ by każdorazowo zaproponować nową perełkę mądrości od Kanye Westa. Program powinien być obsługiwany z poziomu konsoli i obsługiwać komendę "next" by wywołać następny cytat. Program nie potrzebuje oprawy graficznej. Zwróć uwagę na poprawną architekturę aplikacji oraz na czystość kodu.
+Dla chętnych, za dodatkowe punkty: dodaj zapisywanie cytatów w pamięci, by upewnić się, że każdy kolejny cytat jest nowy. 
